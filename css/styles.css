@@ -1,0 +1,124 @@
+.redressed{
+    font-family: 'merriweather',cursive;
+}
+.merriweather{
+font-family: 'merriweather',serif;
+}
+
+.cc-navbar{
+    background-color: rgba(0,0,0,0.55);
+    font-family: 'merriweather',serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,0.55);
+    z-index: 99;
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color:var(--bs-teal) ;
+    transition: 0.5s;
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal) ;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../image/hilto.jpeg') center center fixed no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.banner .banner-desc{
+font-size: 48px;
+font-weight: 400;
+color: white;
+}
+.cc-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/2.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    background-color: greenyellow;
+}
+
+.region{
+    background-color: rgb(17, 18, 15);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.region img{
+    height: 200px;
+    width: 400px;
+    
+}
+
+
+.classement .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.classement .row {
+    margin: 0;
+}
+
+
+
+.admin-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.admin-buttons {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-buttons .btn {
+    margin: 10px;
+    width: 200px;
+    font-size: 18px;
+}
+
+
+.classement {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/2.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.contenance {
+    width: 600px;
+    
+    border: 5px solid rgb(251, 253, 252);
+    background: linear-gradient(rgb(251, 249, 249),rgba(0,0,0,0.5));
+    height: auto;
+    padding: 5px;
+}
+.carte{
+    width: 100%;
+    height: 400px;
+   
+    
+}

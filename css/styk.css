@@ -1,0 +1,300 @@
+/* styles.css */
+
+/* Styles généraux */
+body {
+    font-family: 'merriweather',cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    background-color: #3c753e;
+    font-family: 'merriweather',cursive;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: flex-end;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-start;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+li img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+form {
+    font-family: 'merriweather',cursive;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 30px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Bannière principale */
+.banner {
+    background-image: url('img/31.jpg');
+    font-family: 'merriweather',cursive;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: 'merriweather',cursive;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #666;
+}
+
+/* Images */
+.section img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.testimonials h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.testimonial .author {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styles pour la table */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'merriweather',cursive;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styles pour les messages */
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.redressed{
+    font-family: 'merriweather',cursive;
+}
+.merriweather{
+font-family: 'merriweather',serif;
+}
+
+.cc-navbar{
+    background-color: rgba(0,0,0,0.55);
+    font-family: 'merriweather',serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,0.55);
+    z-index: 99;
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color:var(--bs-teal) ;
+    transition: 0.5s;
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal) ;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/31.jpg') center center fixed no-repeat;
+    height: 800px;
+    background-size: cover;
+}
+.banner .banner-desc{
+font-size: 48px;
+font-weight: 400;
+color: white;
+}
+.cc-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/2.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    background-color: greenyellow;
+}
+
+.region{
+    background-color: rgb(17, 18, 15);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.regionimg{
+    height: 200px;
+    width: 400px;
+    
+}
